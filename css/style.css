@@ -1,0 +1,1029 @@
+* {
+  font-family: "游ゴシック", "YuGothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-size-adjust: 100%;
+  margin-top: 0px;
+}
+
+/*    header    */
+header img {
+  width: 100%;
+}
+
+
+/*   CONTACT    */
+.contact {
+  background-image: url("../img/bg_cv.jpg");
+  text-align: center;
+}
+
+.contact_content {
+  padding: 30px;
+  max-width: 765px;
+  margin: 0px auto;
+
+}
+
+.contact_title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffff;
+  border-bottom: 1px solid #ffff;
+}
+
+.contact_title span {
+  font-size: 42px;
+  margin: auto 10px;
+}
+
+.contact_text {
+  font-size: 14px;
+  color: #ffff;
+}
+
+.contact_content img {
+  width: 100%;
+}
+
+/*   ABOUT    */
+.about {
+  background-image: url("../img/bg_about.jpg");
+  text-align: center;
+}
+
+.about_content {
+  max-width: 765px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.about_img img {
+  width: 100%;
+
+}
+
+.about_text {
+  background-color: #fff;
+  border: .5px solid #999;
+  padding: 30px;
+  margin: 15px auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.about_text_box {
+  border-bottom: 1px solid #222;
+  display: inline-flex;
+  width: 80%;
+  padding: 30px 30px;
+  text-align: left;
+  margin-right: 0px;
+}
+
+.about_text_box:last-child {
+  border-bottom: none;
+}
+
+.about_text_box img {
+  width: 200px;
+  height: 150px;
+  margin-right: 30px;
+}
+
+.about_text_box_item h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*   MERIT    */
+.merit {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+
+.merit_content {
+  margin: 0 auto;
+  padding: 100px 100px;
+  max-width: 1000px;
+}
+
+.merit_title {
+  margin-bottom: 80px;
+}
+
+.merit_title h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+
+.merit_title_icon {
+  display: block;
+  border: 1px solid #ffff;
+  width: 140px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.merit_title h3 {
+  font-size: 38px;
+}
+
+
+.merit_warap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.merit_warap_item {
+  width: 30%;
+}
+
+.merit_warap_item:last-child {
+  margin-right: none;
+}
+
+.merit_warap h3 {
+  font-size: 25px;
+}
+
+.merit_warap img {
+  width: 50%;
+  justify-content: space-around;
+}
+
+.merit_warap_icon {
+  display: block;
+  border: 1px solid #ffff;
+  font-family: 'Bebas Neue', cursive;
+  width: 120px;
+  margin: 10px auto;
+}
+
+.merit_warap_text {
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .merit_warap {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .merit_warap_item {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .merit_warap img {
+    width: 30%;
+  }
+
+  .merit_title h3 {
+    font-size: 32px;
+  }
+
+  .merit_warap h3 {
+    font-size: 23px;
+  }
+}
+
+
+/*    REASON    */
+.reason {
+  text-align: center;
+}
+
+.reason_title {
+  margin-bottom: 80px;
+}
+
+.reason_title h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+
+.reason_title_icon {
+  display: block;
+  border: 1px solid black;
+  width: 140px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.reason_sub_title {
+  display: block;
+  font-size: 38px;
+}
+
+.reason_sub_title_fontchange {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+
+.reason_warap {
+  max-width: 765px;
+  margin: 0 auto;
+}
+
+.reason_warap_box img {
+  display: block;
+  width: 35%;
+  height: auto;
+  margin-right: 30px;
+}
+
+.reason_warap_box {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 30px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.reason_warap_icon {
+  font-family: 'Bebas Neue', cursive;
+  background-color: black;
+  color: #fff;
+  display: block;
+  border: 1px solid black;
+  width: 140px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.reason_warap_item h3 {
+  font-size: 25px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .reason_warap {
+    width: 100%;
+  }
+
+  .reason_warap_box {
+    display: block;
+    width: 80%;
+    margin: 0px auto 30px;
+    text-align: center;
+    padding: 0px 0px;
+  }
+
+  .reason_warap_icon {
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+    {
+    margin: 10px auto;
+  }
+
+  .reason_sub_title {
+
+    .reason_warap_box img {
+      margin-right: 0px;
+      width: 90%;
+    }
+
+    .reason_warap_item h3 font-size: 32px;
+  }
+
+  .reason_warap_item h3 {
+    font-size: 23px;
+  }
+}
+
+/*    ITEM    */
+.item {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+
+.item_content {
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+.item_content h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+
+.item_title_icon {
+  display: block;
+  border: 1px solid #ffff;
+  width: 260px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.item_content h3 {
+  font-size: 32px;
+}
+
+.item_content img {
+
+  width: 100%;
+  margin: 80px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .item_content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .item_content h3 {
+    font-size: 23px;
+  }
+}
+
+
+/*    DESIGN    */
+.design {
+  text-align: center;
+  padding: 30px;
+}
+
+.design_content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.design_title img {
+  width: 200px;
+}
+
+.design_title h2 {
+  font-family: 'Bebas Neue',
+    cursive;
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+
+.design_title_icon {
+  display: block;
+  border: 1px solid black;
+  width: 200px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.design_title h3 {
+  font-size: 32px;
+}
+
+.design_img_catch {
+  font-size: 32px;
+}
+
+.design_img_catch span {
+  font-weight: bold;
+}
+
+.design_img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.design_img img {
+  width: 100%;
+
+}
+
+@media screen and (max-width: 768px) {
+  .design_img {
+    width: 100%;
+  }
+
+  .design_title h3 {
+    font-size: 23px;
+  }
+}
+
+/*    FLOW    */
+.flow {
+  text-align: center;
+  padding: 30px;
+}
+
+.flow_title h2 {
+  font-family: 'Bebas Neue',
+    cursive;
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+
+.flow_title_icon {
+  display: block;
+  border: 1px solid black;
+  width: 240px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.flow_title h3 {
+  font-size: 32px;
+}
+
+.flow_content {
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.flow_img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .flow_content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .flow_title h3 {
+    font-size: 23px;
+  }
+}
+
+/*    KIT    */
+.kit {
+  text-align: center;
+  padding: 30px auto;
+}
+
+.kit_img01 img {
+  width: 100%;
+}
+
+.kit_content {
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.kit_img02 {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.kit_img02 img {
+  width: 100%
+}
+
+.kit_btn {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  cursor: pointer;
+}
+
+.kit_btn img {
+  width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  .kit_content {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .kit_btn img {
+    width: 300px;
+  }
+}
+
+
+
+/*   SIMULATION    */
+.simulation {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+
+.simulation_content {
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.simulation_content h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  margin-bottom: 0px;
+  word-break: break-all;
+}
+
+.simulation_title_icon {
+  display: block;
+  border: 1px solid #ffff;
+  width: 340px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.simulation_content h3 {
+  font-size: 32px;
+}
+
+.simulation_content img {
+  width: 100%;
+  margin: 80px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .simulation_content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  .simulation_content h3 {
+    font-size: 23px;
+  }
+}
+
+/*   SPACE    */
+.space {
+  background-color: #e6e6e6;
+  padding: 80px 10px;
+}
+
+.space_around {
+  background-color: #fff;
+  text-align: center;
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.space_content {
+  display: block;
+  max-width: 765px;
+  margin: 0 auto;
+}
+
+.space_content img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.space_content h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  padding-top: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.space_title_icon {
+  display: block;
+  border: 1px solid #ffff;
+  width: 340px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.space_content h3 {
+  font-size: 32px;
+}
+
+.space_title_text {
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .space {
+    padding: 15px 0 15px;
+  }
+
+  .space_content {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+
+  .space_content img {
+    width: 100%;
+  }
+
+  .space_content h3 {
+    font-size: 23px;
+  }
+}
+
+
+/*   INSTAGRAM    */
+.instaram_content {
+  text-align: center;
+  display: block;
+  padding: 30px;
+}
+
+
+.instaram_title img {
+  width: 45%;
+  margin-right: 20px;
+}
+
+.instaram_title {
+  display: block;
+  display: inline-flex;
+  max-width: 650px;
+}
+
+.instaram_title p {
+  margin: auto 0px;
+}
+
+.instagram_design {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+.instagram_design_flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 100px 0 100px;
+  padding-left: 0px;
+}
+
+.instagram_design_flex-box li {
+  width: 18%;
+}
+
+.instagram_design img {
+  width: 100%;
+  margin: 0 0 auto;
+}
+
+.instagram_design li {
+  list-style: none;
+}
+
+.official {
+  position: relative;
+  width: 240px;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.official:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: url(../img/ic_insta.png);
+}
+
+.instagram_design_more {
+  width: 400px;
+  display: block;
+  padding: 20px 0 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .instaram_content {
+    padding: 30px 0px;
+  }
+
+  .instaram_title {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .instaram_title p {
+    margin: 10px auto;
+  }
+
+  .instaram_content {
+    width: 100%;
+  }
+
+  .instagram_design_flex-box li {
+    width: 33%;
+  }
+
+  .instagram_design_flex-box {
+    text-align: center;
+    margin: 30px 10px;
+    padding-left: 0px;
+  }
+
+  .instaram_title img {
+    margin-right: 0px;
+  }
+}
+
+
+/*   CONTACT FORM    */
+.contact_seminar_content {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.contact_seminar_titlle {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.contact_seminar_subtitlle {
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.contactform_btn {
+  font-size: 23px;
+  font-weight: bold;
+  display: block;
+  background: #E40D47;
+  color: #fff;
+  width: 400px;
+  margin: 0 auto;
+  padding: 5px 0 5px;
+  border-radius: 5px;
+  margin-top: 0px;
+}
+
+.contact_form {
+  text-align: center;
+  max-width: 765px;
+  margin: 0 auto;
+  display: block;
+}
+
+.contact_form_tittle {
+  font-size: 32px;
+  font-weight: bold;
+  border-bottom: 4px solid #0D7AD6;
+  padding-bottom: 10px;
+  max-width: 765px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.contact_form_content table {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 16px;
+}
+
+.contact_form_content tr {
+  display: block;
+  padding: 10px 0 10px;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 35px;
+}
+
+.contact_form_content tr:first-child {
+  margin-top: 30px;
+}
+
+.contact_form_content th {
+  vertical-align: top;
+  width: 200px;
+  line-height: 35px;
+  font-weight: 500;
+}
+
+.contact_form_content span {
+  margin-right: 5px;
+}
+
+
+.contact_form_content textarea {
+  border: 1px solid #ccc;
+  background-color: #EEEEEE;
+  appearance: none;
+  width: 100%;
+}
+
+.contact_form_content input {
+  border: 1px solid #ccc;
+  background-color: #EEEEEE;
+  line-height: 30px;
+}
+
+.option {
+  width: 200px;
+  height: 37.2px;
+  border: 1px solid #ccc;
+  background-color: #EEEEEE;
+
+}
+
+.contact_form_submit {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0D7AD6 !important;
+  border: 1px solid #0D7AD6 !important;
+  border-radius: 5px;
+  padding: 5px 0 5px;
+  display: block;
+  margin: 30px auto 30px;
+  text-align: center;
+  width: 200px;
+}
+
+.address {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 100px;
+}
+
+.comments {
+  margin-top: 0px;
+  color: #999;
+}
+
+.comments span {
+  color: #0D7AD6;
+  border-bottom: 1px solid #0D7AD6;
+}
+
+.required {
+  background-color: #E40D47;
+  color: #fff;
+  font-size: 14px;
+  width: 40px;
+  line-height: 24px;
+  text-align: center;
+  display: inline-block;
+}
+
+.optional {
+  background-color: #999;
+  color: #fff;
+  font-size: 14px;
+  width: 40px;
+  line-height: 24px;
+  text-align: center;
+  display: inline-block;
+}
+
+.automatic {
+  background-color: #0D7AD6;
+  color: #fff;
+  font-size: 14px;
+  width: 70px;
+  line-height: 24px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .contact_seminar_titlle {
+    font-size: 23px;
+  }
+
+  .contact_form_tittle {
+    font-size: 23px;
+  }
+
+
+  .contact_seminar_text {
+    text-align: left;
+  }
+
+  .contact_seminar_content {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .contact_seminar_text {
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .contact_form {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+
+  .contact_form_tittle {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+
+  }
+
+  .contact_form_content td {
+    display: block;
+  }
+
+}
+
+
+
+/*   footer    */
+.footer {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  padding: 80px 0 80px;
+}
+
+.company_logo {
+  width: 100px;
+}
+
+.company {
+  line-height: 10px;
+  font-size: 12px;
+}
+
+.instaram_logo {
+  width: 20px;
+  margin-top: 20px;
+}
+
+.Copyright {
+  display: block;
+  margin-top: 50px;
+}
+
+
+.img_pc {
+  display: block !important;
+}
+
+.img_sp {
+  display: none !important;
+}
+
+.br-disp {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .img_pc {
+    display: none !important;
+  }
+
+  .img_sp {
+    display: block !important;
+  }
+
+  .br-pc {
+    display: none
+  }
+
+  .br-disp {
+    display: block !important;
+  }
+}
