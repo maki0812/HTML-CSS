@@ -1,8 +1,8 @@
-//問い合わせフォームへスクロール
+//問い合わせフォームへスクロール(https://changeup.tech/article/jquery-smooth-scroll/#point%E2%80%9D)
 
 $(function () {
   $('a[href^=#]').click(function () {
-    var speed = 200; // スクロール速度(ミリ秒)
+    var speed = 100; // スクロール速度(ミリ秒)
     var href = $(this).attr("href");
     var target = $(href == "#" || href == "" ? 'html' : href);
     var position = target.offset().top;
@@ -11,4 +11,4 @@ $(function () {
   });
 });
 
-//問い合わせフォームバリデーション
+//

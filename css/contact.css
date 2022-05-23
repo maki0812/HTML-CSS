@@ -1,0 +1,77 @@
+.sec-contact {
+  padding: 100px 0;
+  color: #000000;
+}
+
+.sec-contact .sec-ttl {
+  font-size: 40px;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact .nav-form {
+  margin-top: 30px;
+}
+
+.contact .base {
+  max-width: 945px;
+  margin: 0 auto;
+}
+
+.contact p {
+  color: #000000;
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+.contact .ttl {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 2em 0 1em;
+  color: #000000;
+}
+
+.contact .satori__notes {
+  color: #000000;
+}
+
+.contact .nav-form ul {
+  display: flex;
+  margin: -10px;
+  flex-wrap: wrap;
+}
+
+.contact .nav-form li {
+  width: 25%;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+.contact .btn {
+  background: #E40D47;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  padding: 12px;
+  border-radius: 4px;
+  color: #fff;
+  width: 400px;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: .05em;
+  font-weight: bold;
+}
+
+.contact .ttl-form {
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: .05em;
+  font-weight: bold;
+  margin: 3em auto 1.5em;
+  padding-bottom: .5em;
+  border-bottom: 4px solid #0D7AD6;
+}
